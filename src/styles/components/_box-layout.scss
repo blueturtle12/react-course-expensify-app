@@ -1,7 +1,7 @@
 
 .box-layout {
     align-items: center;
-    background: url('/images/bg.jpg') ;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('/images/bg.jpeg');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -10,7 +10,7 @@
 }
 
 .box-layout__box {
-    background: fade-out(white, .35);
+    background: fade-out(white, .25);
     border-radius: 5px;
     padding: $l-size $m-size;
     text-align: center;
